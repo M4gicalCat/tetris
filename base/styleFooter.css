@@ -1,0 +1,33 @@
+#rectFooter{
+    width:100%;
+    padding:5% 0;
+    background-color: #10102F;
+    color:#AABBAA;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+footer
+{
+    margin-top: auto;
+    font-family: serif;
+}
+
+#insideDiv{
+    font-family: sans-serif;
+    margin-left: 10%;
+}
+#DEP
+{
+    padding-top:1%;
+    width: 240px;
+    height: 110px;
+}
+#IUT{
+    padding-left: 10px;
+    padding-top: 1%;
+    margin-top: 1px;
+    width: 190px;
+    height: 90px;
+}

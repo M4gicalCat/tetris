@@ -1,0 +1,142 @@
+body
+{
+    overflow-x: hidden;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.block
+{
+    width: 1.5em;
+    height: 1.5em;
+    border: solid 3px #00000050;
+    border-radius: 25%;
+}
+table
+{
+    border-spacing: 0;
+}
+
+@keyframes l_b
+{
+    from {background-color: #00ffff55}
+    to {background-color: aqua}
+}
+
+.light_blue
+{
+    animation-name: l_b;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes d_b
+{
+    from {background-color: #0000FF55}
+    to {background-color: blue}
+}
+.dark_blue
+{
+    animation-name: d_b;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes or
+{
+    from {background-color: #FFA50055}
+    to {background-color: #FFA500FF}
+}
+
+.orange
+{
+    animation-name: or;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ye
+{
+    from {background-color: #FFFF0055}
+    to {background-color: #FFFF00FF}
+}
+
+.yellow
+{
+    animation-name: ye;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gr
+{
+    from {background-color: #00800055}
+    to {background-color: #008000FF}
+}
+
+.green
+{
+    animation-name: gr;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vi
+{
+    from {background-color: #80008055}
+    to {background-color: #800080FF}
+}
+
+.violet
+{
+    animation-name: vi;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+@keyframes re
+{
+    from {background-color: #FF000055}
+    to {background-color: #FF0000FF}
+}
+
+.red
+{
+    animation-name: re;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.tetris, .piece
+{
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    display: inline-block;
+    margin: auto;
+}
+
+#menu
+{
+    margin: auto;
+}
+
+button
+{
+    padding: 0.5em;
+    font-size: 1.3em;
+}
+
+#score, #fin
+{
+    font-size: 2em;
+}
+
+*
+{
+    font-family: 'Almendra', serif;
+}

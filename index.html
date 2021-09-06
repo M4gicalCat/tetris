@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css">
+    <script src="Block.js"></script>
+    <script src="Grille.js"></script>
+    <script src="Piece.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Almendra" rel="stylesheet">
+    <title>Tetris</title>
+    <link rel="stylesheet" href="base/styleFooter.css">
+</head>
+<body>
+
+
+<table id="container">
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        <div id="menu">
+                            <b id="recommencer">
+                                <button onclick="start()">Recommencer</button>
+                            </b>
+                            <button onclick="stop()">TOUT ARRÊTER</button>
+                            <button onclick="reprendre()">reprendre</button>
+                        </div>
+                        <div id="fin"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="tetris"></div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table>
+                <tr><td><div id="score"></div></td></tr>
+                <tr><td><div id="piece"></div></td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<footer>
+    <div id="rectFooter">
+        <div id="insideDiv">
+            Philippe Faisandier<br>
+            DUT informatique<br>
+            <a href="http://www.iut-bm.univ-fcomte.fr/"><img id="IUT" alt="Logo de l'IUT" src="base/IUT_LOGO.png"></a>
+            <a href="http://www.iut-bm.univ-fcomte.fr/"><img id="DEP" alt="Logo du dpt info" src="base/DPT_LOGO.png"></a>
+        </div>
+    </div>
+</footer>
+<script src="tetris.js"></script>
+</body>
+</html>
